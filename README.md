@@ -4,7 +4,25 @@ omarchy vantablack theme but a little customized with more backgrounds and littl
 
 # Installation
 
-To install this theme, simply use the omarchy-theme-install command:
+Icons:
+
+```
+sudo pacman -S papirus-icon-theme
+```
+
+```
+yay -S papirus-folders
+```
+
+```
+papirus-folders -C grey -t Papirus-Dark
+```
+
+```
+gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+```
+
+Then install the theme, simply use the omarchy-theme-install command:
 
 ```bash
 omarchy-theme-install https://github.com/ABetancourt03/vantablack-customized
